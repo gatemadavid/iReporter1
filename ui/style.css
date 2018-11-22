@@ -156,6 +156,10 @@ nav ul li a {
   width: 30vw;
   margin-bottom: 5em !important;
 }
+.radio-group {
+  margin-bottom: 2em;
+}
+
 .submit-btn {
   text-decoration: none;
   font-size: 16px;
