@@ -202,9 +202,48 @@ nav ul li a {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-right ul {
+  padding: 0 20px;
+  margin: 0;
+  list-style: none;
+}
+
+.profile-right ul li {
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  line-height: 1.6;
+}
+.profile-right ul li span {
+  color: #004671;
+  font-weight: 800;
 }
 .table {
   margin: 0 20px;
+}
+
+.save {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #004671;
+  color: #fff;
+  border: 1px solid #004671;
+  border-radius: 5px;
+}
+.space {
+  height: 20px;
+}
+canvas {
+  z-index: 99;
+}
+
+table tr td select {
+  padding: 10px;
+  background: none;
+  border: none;
 }
 table {
   width: 100%;
@@ -222,6 +261,12 @@ table table,
 th,
 td {
   border: 1px solid black;
+}
+
+#map {
+  height: 400px;
+  padding: 20px;
+  margin-bottom: 2em;
 }
 footer {
   background: #004671;
