@@ -27,16 +27,27 @@
       <section id="register-form">
         <div class="container">
           <form class="card" action="">
-            <h1>Create Red Flag or Intervention</h1>
+            <h1>Edit Red Flag or Intervention</h1>
             <div class="form-group">
               <!-- <label for="firstName">First Name</label> -->
               <input type="text" name="title" id="" placeholder="Title" />
             </div>
             <div class="radio-group">
               <label for="redflag">Red Flag</label>
-              <input type="radio" name="type" id="" value="Red Flag" checked />
+              <input
+                type="radio"
+                name="reflag"
+                id=""
+                value="Red Flag"
+                checked
+              />
               <label for="redflag">Intervention</label>
-              <input type="radio" name="type" id="" value="Intervention" />
+              <input
+                type="radio"
+                name="intervention"
+                id=""
+                value="Intervention"
+              />
             </div>
             <div class="form-group">
               <textarea
@@ -50,8 +61,6 @@
             <div class="form-group">
               <input type="file" name="image" id="" />
             </div>
-            <h1>Choose Location</h1>
-            <div id="map"></div>
 
             <input class="submit-btn" type="submit" value="Create" />
           </form>
@@ -60,13 +69,5 @@
     </div>
 
     <footer class="footer">Copyright &copy; 2018</footer>
-
-    <script src="main.js"></script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoP82807qDBtc9WJw9flFehGt1CTRYR3w&callback=initMap"
-      type="text/javascript"
-    ></script>
   </body>
 </html>

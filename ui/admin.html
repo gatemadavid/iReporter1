@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <title>iReporter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="navbar">
+          <ul class="logo">
+            <li><a href="index.html">iReporter</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="admin.html">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="profile-section">
+        <div class="container">
+          <div class="profile-content">
+            <div class="profile-left">
+              <div class="profile-left-content"></div>
+              <div class="card">
+                <div class="table">
+                  <table>
+                    <tr>
+                      <th>User</th>
+                      <th>Red Flag/ Intervention</th>
+                      <th>Status</th>
+                      <th>Change Status</th>
+                    </tr>
+                    <tr>
+                      <td>Mike</td>
+                      <td>Bribery in immigration Department</td>
+                      <td>Under Investigation</td>
+                      <td>
+                        <select>
+                          <option value="">Change Status</option>
+                          <option value="">Resolved</option>
+                          <option value="">Under Investigation</option>
+                          <option value="">Rejected</option>
+                        </select>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>Victoria</td>
+                      <td>Collapsed bridge along Juja Road</td>
+                      <td>Resolved</td>
+                      <td>
+                        <select>
+                          <option value="">Change Status</option>
+                          <option value="">Resolved</option>
+                          <option value="">Under Investigation</option>
+                          <option value="">Rejected</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mike</td>
+                      <td>Power transfromer near health center</td>
+                      <td>Rejected</td>
+                      <td>
+                        <select>
+                          <option value="">Change Status</option>
+                          <option value="">Resolved</option>
+                          <option value="">Under Investigation</option>
+                          <option value="">Rejected</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Mary</td>
+                      <td>Bribery at city hall.</td>
+                      <td>Under Investigation</td>
+                      <td>
+                        <select>
+                          <option value="">Change Status</option>
+                          <option value="">Resolved</option>
+                          <option value="">Under Investigation</option>
+                          <option value="">Rejected</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <input class="save" type="submit" value="Save" />
+                </div>
+              </div>
+              <div class="space"></div>
+
+              <div class="card">
+                <h1>Stats</h1>
+                <canvas id="myChart" height="100"></canvas>
+              </div>
+            </div>
+
+            <div class="profile-right">
+              <div class="card">
+                <img src="img/profile-pic.jpg" alt="" />
+                <h4>Name:</h4>
+                <h4>ID:</h4>
+              </div>
+              <div class="space"></div>
+              <div class="card">
+                <ul>
+                  <li>Total users: <span> 450</span></li>
+                  <hr />
+                  <li>Total Interventions: <span>200</span></li>
+                  <li>Total Red Flags: <span>500</span></li>
+                  <hr />
+                  <li>Rejected Red Flags: <span>20</span></li>
+                  <li>Rejected Interventions: <span>110</span></li>
+                  <hr />
+                  <li>Resolved Red Flags: <span>90</span></li>
+                  <li>Resolved Interventions: <span>100</span></li>
+                  <hr />
+                  <li>Red Flags Under Investigation: <span>120</span></li>
+                  <li>Interventions Under Investigation: <span>10</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">Copyright &copy; 2018</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script src="main.js"></script>
+    <script></script>
+  </body>
+</html>
